@@ -34,3 +34,28 @@ let myObj = {
  }
 
  console.log(typeof heros);
+
+
+
+//  *****************************
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "jyotidotcom"
+let anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "jyoti@gmail.com",
+    upi: "upi@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "jyoti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
