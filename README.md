@@ -1,2 +1,2 @@
 # js
-A code repo javascript 
+A code repo javascript.
